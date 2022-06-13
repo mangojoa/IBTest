@@ -51,6 +51,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button03"/>
+                                <connections>
+                                    <action selector="clickBtn03:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hYf-dz-uWN"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label04" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="89A-gW-cM7">
                                 <rect key="frame" x="47" y="334" width="63" height="21"/>
@@ -94,6 +97,7 @@
                     <connections>
                         <outlet property="UniTitle01" destination="ZeX-5i-sE6" id="4f5-20-uqw"/>
                         <outlet property="uniTitle02" destination="bqw-JR-8dP" id="flN-9t-4Hw"/>
+                        <outlet property="uniTitle03" destination="7mx-Y2-lpg" id="Wzs-iw-Oa1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
