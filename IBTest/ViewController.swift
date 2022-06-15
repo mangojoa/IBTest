@@ -83,6 +83,20 @@ class ViewController: UIViewController {
      그래서 연결 정보창을 통한 정보 입력이 필요하지 않다.
     */
     
+    /* [22.06.15] 커넥션 인스펙터 탭을 사용하여 객체 연결하기
+     보조 에디터에서 한 것처럼 연결 아이콘이 옆에 출력되지만 이를 사용하지 않는 방법이다.
+     커넥션 인스펙터 탭에서 이 탭은 현재 연결되어 있는 정보뿐만 아니라, @IBOutlet @IBAction 어노에티션이 붙은 항목중에서 아직 연결되지 않은 항목들도 표시해줍니다.
+     Connection inspector tab 에서는 이에 연결된 ViewController 클래스 내부에 정의된 @IBOutlet @IBAction 메소드들이 보인다.
+     
+     이를 통해 다른 항목과 달리 어노테이션을 사용하는 객체들의 상태를 확인할 수 있다.
+     
+     */
+    @IBOutlet var uniTitle04: UILabel!
+    
+    @IBAction func clickBtn04(_ sender: Any) {
+        
+    }
+    
     
     
 }
