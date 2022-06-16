@@ -33,7 +33,7 @@ class ViewController: UIViewController {
      */
     
     @IBAction func clickBtn01(_ sender: Any) {
-        
+        self.UniTitle01.text = "Button01 Clicked"
     }
     
     /* ---------------------------- */
@@ -49,6 +49,7 @@ class ViewController: UIViewController {
     
     // 인스펙터를 이용해 연결한 clickBtn02
     @IBAction func clickBtn02(_ sender: Any) {
+        self.uniTitle02.text = "Button02 Clicked"
     }
     
     /* ---------------------------- */
@@ -71,6 +72,7 @@ class ViewController: UIViewController {
      이렇게 작성한 코드 앞에는 [인터페이스 빌더] / [인스펙터] 를 이용한 것과는 달리 원모양 아이콘이 나타난다.
      */
     @IBAction func clickBtn03(_ sender: Any) {
+        self.uniTitle03.text = "Button03 Clicked"
     }
     
     /* [22.06.13] 레이블 객체 위로 가이드 라인이 연결되고 레이블이 활성화 되었을 때 마우스 드래그를 놓으면, 객체와 아울렛 변수 사이가 연결됩니다.
@@ -94,7 +96,7 @@ class ViewController: UIViewController {
     @IBOutlet var uniTitle04: UILabel!
     
     @IBAction func clickBtn04(_ sender: Any) {
-        
+        self.uniTitle04.text = "Button04 Clicked"
     }
     
     /* [22.06.16] 문서 개요창을 활용하여 객체 연결하기
@@ -110,6 +112,7 @@ class ViewController: UIViewController {
     @IBOutlet var uniTitle05: UILabel!
     
     @IBAction func clickBtn05(_ sender: Any) {
+        self.uniTitle05.text = "Button05 Clicked"
     }
     
 }
